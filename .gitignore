@@ -1,0 +1,25 @@
+# Maven
+/target/
+/*.log
+/*.tmp
+
+# IDEs
+/.idea/
+*.iml
+*.ipr
+*.iws
+/.project
+/.classpath
+/.settings/
+
+# VS Code
+.vscode/
+
+# Playwright recordings and traces
+newrecord/
+newscreenshot/
+trace.zip
+
+# OS files
+Thumbs.db
+.DS_Store
