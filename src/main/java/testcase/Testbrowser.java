@@ -17,6 +17,7 @@ public class Testbrowser {
 			page.fill("textarea", "hello world");
 			// press Enter in keyboard to submit the search form
 			page.press("textarea", "Enter");
+			System.out.print("hello world");
 			// wait for results to load / to see the browser
 			try {
 				Thread.sleep(5000);
